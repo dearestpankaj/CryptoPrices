@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		1562389624DEC59A00E1340D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562389524DEC59A00E1340D /* AppDelegate.swift */; };
 		1562389824DEC59A00E1340D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562389724DEC59A00E1340D /* SceneDelegate.swift */; };
-		1562389A24DEC59A00E1340D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562389924DEC59A00E1340D /* ContentView.swift */; };
+		1562389A24DEC59A00E1340D /* CoinList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1562389924DEC59A00E1340D /* CoinList.swift */; };
 		1562389C24DEC59D00E1340D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1562389B24DEC59D00E1340D /* Assets.xcassets */; };
 		1562389F24DEC59D00E1340D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1562389E24DEC59D00E1340D /* Preview Assets.xcassets */; };
 		156238A224DEC59D00E1340D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156238A024DEC59D00E1340D /* LaunchScreen.storyboard */; };
 		156238AD24DEC59D00E1340D /* CryptoPrice_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156238AC24DEC59D00E1340D /* CryptoPrice_ViewerTests.swift */; };
 		156238B824DEC59D00E1340D /* CryptoPrice_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156238B724DEC59D00E1340D /* CryptoPrice_ViewerUITests.swift */; };
+		156238C624DEFA5F00E1340D /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156238C524DEFA5F00E1340D /* CryptoService.swift */; };
+		156238C924E167FB00E1340D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156238C824E167FB00E1340D /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1562389224DEC59A00E1340D /* CryptoPrice Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoPrice Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1562389224DEC59A00E1340D /* CryptoPriceViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPriceViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1562389524DEC59A00E1340D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1562389724DEC59A00E1340D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1562389924DEC59A00E1340D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1562389924DEC59A00E1340D /* CoinList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinList.swift; sourceTree = "<group>"; };
 		1562389B24DEC59D00E1340D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1562389E24DEC59D00E1340D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		156238A124DEC59D00E1340D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		156238A324DEC59D00E1340D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		156238A824DEC59D00E1340D /* CryptoPrice ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoPrice ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		156238A824DEC59D00E1340D /* CryptoPriceViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPriceViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156238AC24DEC59D00E1340D /* CryptoPrice_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPrice_ViewerTests.swift; sourceTree = "<group>"; };
 		156238AE24DEC59D00E1340D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		156238B324DEC59D00E1340D /* CryptoPrice ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CryptoPrice ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		156238B324DEC59D00E1340D /* CryptoPriceViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoPriceViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		156238B724DEC59D00E1340D /* CryptoPrice_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPrice_ViewerUITests.swift; sourceTree = "<group>"; };
 		156238B924DEC59D00E1340D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156238C524DEFA5F00E1340D /* CryptoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		156238C824E167FB00E1340D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,9 @@
 		1562388924DEC59A00E1340D = {
 			isa = PBXGroup;
 			children = (
-				1562389424DEC59A00E1340D /* CryptoPrice Viewer */,
-				156238AB24DEC59D00E1340D /* CryptoPrice ViewerTests */,
-				156238B624DEC59D00E1340D /* CryptoPrice ViewerUITests */,
+				1562389424DEC59A00E1340D /* CryptoPriceViewer */,
+				156238AB24DEC59D00E1340D /* CryptoPriceViewerTests */,
+				156238B624DEC59D00E1340D /* CryptoPriceViewerUITests */,
 				1562389324DEC59A00E1340D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,25 +93,27 @@
 		1562389324DEC59A00E1340D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1562389224DEC59A00E1340D /* CryptoPrice Viewer.app */,
-				156238A824DEC59D00E1340D /* CryptoPrice ViewerTests.xctest */,
-				156238B324DEC59D00E1340D /* CryptoPrice ViewerUITests.xctest */,
+				1562389224DEC59A00E1340D /* CryptoPriceViewer.app */,
+				156238A824DEC59D00E1340D /* CryptoPriceViewerTests.xctest */,
+				156238B324DEC59D00E1340D /* CryptoPriceViewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1562389424DEC59A00E1340D /* CryptoPrice Viewer */ = {
+		1562389424DEC59A00E1340D /* CryptoPriceViewer */ = {
 			isa = PBXGroup;
 			children = (
 				1562389524DEC59A00E1340D /* AppDelegate.swift */,
 				1562389724DEC59A00E1340D /* SceneDelegate.swift */,
-				1562389924DEC59A00E1340D /* ContentView.swift */,
+				1562389924DEC59A00E1340D /* CoinList.swift */,
 				1562389B24DEC59D00E1340D /* Assets.xcassets */,
 				156238A024DEC59D00E1340D /* LaunchScreen.storyboard */,
 				156238A324DEC59D00E1340D /* Info.plist */,
 				1562389D24DEC59D00E1340D /* Preview Content */,
+				156238C524DEFA5F00E1340D /* CryptoService.swift */,
+				156238C824E167FB00E1340D /* ActivityIndicator.swift */,
 			);
-			path = "CryptoPrice Viewer";
+			path = CryptoPriceViewer;
 			sourceTree = "<group>";
 		};
 		1562389D24DEC59D00E1340D /* Preview Content */ = {
@@ -118,30 +124,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		156238AB24DEC59D00E1340D /* CryptoPrice ViewerTests */ = {
+		156238AB24DEC59D00E1340D /* CryptoPriceViewerTests */ = {
 			isa = PBXGroup;
 			children = (
 				156238AC24DEC59D00E1340D /* CryptoPrice_ViewerTests.swift */,
 				156238AE24DEC59D00E1340D /* Info.plist */,
 			);
-			path = "CryptoPrice ViewerTests";
+			path = CryptoPriceViewerTests;
 			sourceTree = "<group>";
 		};
-		156238B624DEC59D00E1340D /* CryptoPrice ViewerUITests */ = {
+		156238B624DEC59D00E1340D /* CryptoPriceViewerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				156238B724DEC59D00E1340D /* CryptoPrice_ViewerUITests.swift */,
 				156238B924DEC59D00E1340D /* Info.plist */,
 			);
-			path = "CryptoPrice ViewerUITests";
+			path = CryptoPriceViewerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1562389124DEC59A00E1340D /* CryptoPrice Viewer */ = {
+		1562389124DEC59A00E1340D /* CryptoPriceViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 156238BC24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice Viewer" */;
+			buildConfigurationList = 156238BC24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewer" */;
 			buildPhases = (
 				1562388E24DEC59A00E1340D /* Sources */,
 				1562388F24DEC59A00E1340D /* Frameworks */,
@@ -151,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = "CryptoPrice Viewer";
+			name = CryptoPriceViewer;
 			productName = "CryptoPrice Viewer";
-			productReference = 1562389224DEC59A00E1340D /* CryptoPrice Viewer.app */;
+			productReference = 1562389224DEC59A00E1340D /* CryptoPriceViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		156238A724DEC59D00E1340D /* CryptoPrice ViewerTests */ = {
+		156238A724DEC59D00E1340D /* CryptoPriceViewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 156238BF24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice ViewerTests" */;
+			buildConfigurationList = 156238BF24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewerTests" */;
 			buildPhases = (
 				156238A424DEC59D00E1340D /* Sources */,
 				156238A524DEC59D00E1340D /* Frameworks */,
@@ -169,27 +175,28 @@
 			dependencies = (
 				156238AA24DEC59D00E1340D /* PBXTargetDependency */,
 			);
-			name = "CryptoPrice ViewerTests";
+			name = CryptoPriceViewerTests;
 			productName = "CryptoPrice ViewerTests";
-			productReference = 156238A824DEC59D00E1340D /* CryptoPrice ViewerTests.xctest */;
+			productReference = 156238A824DEC59D00E1340D /* CryptoPriceViewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		156238B224DEC59D00E1340D /* CryptoPrice ViewerUITests */ = {
+		156238B224DEC59D00E1340D /* CryptoPriceViewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 156238C224DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice ViewerUITests" */;
+			buildConfigurationList = 156238C224DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewerUITests" */;
 			buildPhases = (
 				156238AF24DEC59D00E1340D /* Sources */,
 				156238B024DEC59D00E1340D /* Frameworks */,
 				156238B124DEC59D00E1340D /* Resources */,
+				156238C724E06D9100E1340D /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				156238B524DEC59D00E1340D /* PBXTargetDependency */,
 			);
-			name = "CryptoPrice ViewerUITests";
+			name = CryptoPriceViewerUITests;
 			productName = "CryptoPrice ViewerUITests";
-			productReference = 156238B324DEC59D00E1340D /* CryptoPrice ViewerUITests.xctest */;
+			productReference = 156238B324DEC59D00E1340D /* CryptoPriceViewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1562388D24DEC59A00E1340D /* Build configuration list for PBXProject "CryptoPrice Viewer" */;
+			buildConfigurationList = 1562388D24DEC59A00E1340D /* Build configuration list for PBXProject "CryptoPriceViewer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1562389124DEC59A00E1340D /* CryptoPrice Viewer */,
-				156238A724DEC59D00E1340D /* CryptoPrice ViewerTests */,
-				156238B224DEC59D00E1340D /* CryptoPrice ViewerUITests */,
+				1562389124DEC59A00E1340D /* CryptoPriceViewer */,
+				156238A724DEC59D00E1340D /* CryptoPriceViewerTests */,
+				156238B224DEC59D00E1340D /* CryptoPriceViewerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,14 +269,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		156238C724E06D9100E1340D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif swiftlint\nthen\necho \"swiftlint installed\"\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1562388E24DEC59A00E1340D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156238C624DEFA5F00E1340D /* CryptoService.swift in Sources */,
+				156238C924E167FB00E1340D /* ActivityIndicator.swift in Sources */,
 				1562389624DEC59A00E1340D /* AppDelegate.swift in Sources */,
 				1562389824DEC59A00E1340D /* SceneDelegate.swift in Sources */,
-				1562389A24DEC59A00E1340D /* ContentView.swift in Sources */,
+				1562389A24DEC59A00E1340D /* CoinList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +323,12 @@
 /* Begin PBXTargetDependency section */
 		156238AA24DEC59D00E1340D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1562389124DEC59A00E1340D /* CryptoPrice Viewer */;
+			target = 1562389124DEC59A00E1340D /* CryptoPriceViewer */;
 			targetProxy = 156238A924DEC59D00E1340D /* PBXContainerItemProxy */;
 		};
 		156238B524DEC59D00E1340D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1562389124DEC59A00E1340D /* CryptoPrice Viewer */;
+			target = 1562389124DEC59A00E1340D /* CryptoPriceViewer */;
 			targetProxy = 156238B424DEC59D00E1340D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,9 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoPrice Viewer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceViewer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CryptoPrice Viewer/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,9 +483,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CryptoPrice Viewer/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceViewer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "CryptoPrice Viewer/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +503,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CryptoPrice ViewerTests/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrice Viewer.app/CryptoPrice Viewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPriceViewer.app/CryptoPriceViewer";
 			};
 			name = Debug;
 		};
@@ -495,7 +524,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CryptoPrice ViewerTests/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,7 +535,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPrice Viewer.app/CryptoPrice Viewer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoPriceViewer.app/CryptoPriceViewer";
 			};
 			name = Release;
 		};
@@ -515,7 +544,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CryptoPrice ViewerUITests/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CryptoPrice Viewer";
+				TEST_TARGET_NAME = CryptoPriceViewer;
 			};
 			name = Debug;
 		};
@@ -534,7 +563,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "CryptoPrice ViewerUITests/Info.plist";
+				INFOPLIST_FILE = CryptoPriceViewerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -544,14 +573,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "CryptoPrice Viewer";
+				TEST_TARGET_NAME = CryptoPriceViewer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1562388D24DEC59A00E1340D /* Build configuration list for PBXProject "CryptoPrice Viewer" */ = {
+		1562388D24DEC59A00E1340D /* Build configuration list for PBXProject "CryptoPriceViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156238BA24DEC59D00E1340D /* Debug */,
@@ -560,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		156238BC24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice Viewer" */ = {
+		156238BC24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156238BD24DEC59D00E1340D /* Debug */,
@@ -569,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		156238BF24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice ViewerTests" */ = {
+		156238BF24DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156238C024DEC59D00E1340D /* Debug */,
@@ -578,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		156238C224DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPrice ViewerUITests" */ = {
+		156238C224DEC59D00E1340D /* Build configuration list for PBXNativeTarget "CryptoPriceViewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156238C324DEC59D00E1340D /* Debug */,

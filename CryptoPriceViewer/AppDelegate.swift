@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CryptoPrice Viewer
+//  CryptoPriceViewer
 //
 //  Created by Pankaj Sachdeva on 08/08/20.
 //  Copyright © 2020 Pankaj Sachdeva. All rights reserved.
